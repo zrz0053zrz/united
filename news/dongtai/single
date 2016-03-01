@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>规划人生，定为梦想——及第一次职场展望课程-信息管理学院青年校友联合会</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style type="text/css">
+		body {
+			margin: 0; padding: 0;  background-color: #333;
+		}
+		a {
+			color: #000;
+		}
+		/* -------------------- 导航 -----------------------*/
+		.navbar {
+			background-color: rgba(59,143,197,0.8);
+		}
+		.navbar-default .navbar-nav > .active > a {
+			color: #fff; background-color: rgba(59,143,197,0);
+			border-bottom: 2px solid #bad401;
+		}
+		.navbar-default .navbar-nav > .active > a:focus,
+		.navbar-default .navbar-nav > .active > a:hover{
+			color: #fff; background-color: #59a9dc;
+			border-bottom: 2px solid #bad401;
+		}
+		.navbar-default .navbar-nav > li > a,
+		.navbar-brand img {
+			color: #fff; background-color: rgba(59,143,197,0);
+		}
+		.navbar-default .navbar-nav > li > a:focus,
+		.navbar-default .navbar-nav > li > a:hover,
+		.navbar-default .navbar-nav > .open > a,
+		.navbar-default .navbar-nav > .open > a:focus,
+		.navbar-default .navbar-nav > .open > a:hover{
+			color: #fff; background-color: #59a9dc;
+		}
+		.btn-default-nav {
+			color: #ccc; background-color: rgba(59,143,197,0);
+			border-color: #aaa;
+		}
+		/* -------------------- footer -----------------------*/
+		footer {
+			background-color: #333; padding-top: 50px;
+			color: #fff;
+		}
+		.row-footer{
+			margin-bottom: 80px; margin-right: 0; padding: 0 100px;
+		}
+		.pull-right {
+			margin: 0 20px 20px 0;
+		}
+		.footer-divider {
+			border-color: #555;
+		}
+		.link {
+			margin-top: 8px;
+		}
+		.squ-divider {
+			width: 100%; height: 10px; background-color: #398ec5;
+		}
+		.col-md-1 {
+			padding-right: 0;
+		}
+
+		/* -------------------- 主要内容 -----------------------*/
+		.main{
+			padding:  100px 100px 50px 100px; background-color: #e0eef8;
+		}
+		.sidebar {
+			background-color: #fff; 
+			margin-left: -5px; padding: 10px 20px 438px 20px;
+		}
+		.articles {
+			background-color: #fff; 
+			margin-left: 5px; padding: 10px 20px 200px 20px;
+		}
+		.breadcrumb {
+			margin-bottom: 10px;
+			padding-left: ; background-color: #fff;
+		}
+		.articles hr {
+			margin-top: 0;
+		}
+		.articles-content {
+			padding: 10px 30px;
+		}
+		.articles-content a:hover {
+			text-decoration: none; 
+		}
+		.articles-content .header{
+			text-align: center; margin-bottom: 10px;
+		}
+		.inline {
+			display: inline-block; margin: 0 5px;
+		}
+		.articles-content p{
+			font-size: 16px; text-indent: 2em;
+			line-height: 1.8; margin: 0;
+		}
+		.articles-content img {
+			margin:5px auto;
+		}
+
+		/* -------------------- sidebar -----------------------*/
+		.nav-pills > li.active > a,
+		.nav-pills > li.active > a:focus,
+		.nav-pills > li.active > a:hover{
+			color: #000; background-color: #fff;
+			border-left: 3px solid #bad401;
+		}
+		.nav-pills > li > a {
+			border-radius: 0; font-size: 18px;
+			padding: 5px 15px;
+		}
+		.nav-pills > li > a:hover,
+		.nav-pills > li > a:focus {
+			background-color: #f6fad9; color: #849700;
+		}
+
+
+		/* -------------------- 反馈建议 -----------------------*/
+		.modal-body textarea {
+			width: 100%;
+		}
+
+		/* -------------------- 回到顶部 -----------------------*/
+		.toTop {
+			width: 50px; height: 50px;
+			background-color: #999; color: #eee;
+			font-size: 50px; text-align: center;
+			border: 1px solid #999; border-radius: 100%;
+			position: fixed; bottom: 20px; right: 20px;
+		}
+		
+		@media screen and (max-width: 480px) {
+			.main{
+				padding:  100px 20px 50px 20px;
+			}
+			.nav-pills > li > a {
+				font-size: 14px;
+			}
+			.sidebar {
+				padding: 10px 20px 300px 20px;
+			}
+			.articles{
+				padding: 10px 20px 300px 20px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<!-- ****************** 导航Navbar ************************* -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- 手机显示 -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">切换导航</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="../../index.html">
+	      	<!-- 这里放logo照片 -->
+	      	<img alt="信息管理学院青年校友联合会" src="" />
+	      </a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="../../index.html">首页 <span class="sr-only">(current)</span></a></li>
+	        <li class="dropdown active">
+	          <a href="../../news.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">资讯<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="../../news.html">公告</a></li>
+	            <li><a href="../dongtai_.html">学校学院动态</a></li>
+	            <li><a href="../huodong.html">校友活动</a></li>
+	          </ul>
+	        </li>
+	       <li class="dropdown">
+	          <a href="../../united.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">校友会<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="../../united.html">校友会信息</a></li>
+	            <li><a href="../../united/xiaoyouInfo.html">校友信息</a></li>
+	          </ul>
+	        </li>
+	        <li class="dropdown">
+	          <a href="../../service.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服务<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="../../service.html">校友交流</a></li>
+	            <li><a href="../../service/daoshi.html">校友导师</a></li>
+	            <li><a href="../../service/zonghe.html">综合服务</a></li>
+	          </ul>
+	        </li>
+	        <li class="dropdown">
+	          <a href="../../resource.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">我有资源<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="../../resource.html">捐赠/赞助</a></li>
+	            <li><a href="../../resource/gangwei.html">实习/工作岗位</a></li>
+	            <li><a href="../../resource/baoming.html">校友导师报名</a></li>
+	          </ul>
+	        </li>
+	      <form class="navbar-form navbar-left" role="search">
+	        <div class="form-group">
+	        <button type="button" data-toggle="modal" data-target="#advice" class="btn btn-default-nav">反馈建议</button>
+	      </form>
+	      </ul>
+
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<!-- ********************* 主要内容 *********************** -->
+	<div class="container-fluid main" id="summary-container">
+		<div class="row">
+			<div class="col-md-3 col-sm-3 col-xs-3 sidebar">
+				<h5>导航目录</h5>
+				<hr />
+				<ul class="nav nav-pills nav-stacked">
+					<li role="presentation"><a href="../../news.html">公告</a></li>
+					<li role="presentation" id="dongtai" class="active"><a href="../dongtai_.html">学校学院动态</a></li>
+					<li role="presentation"><a href="../huodong.html">校友活动</a></li>
+				</ul>
+			</div>
+			<div class="col-md-9 col-sm-9 col-xs-9 articles">
+				<ol class="breadcrumb">
+				  <li><a href="../../news.html">资讯</a></li>
+				  <li><a href="../dongtai_.html">学校学院动态</a></li>
+				  <li class="active">规划人生，定为梦想——及第一次职场展望课程</li>
+				</ol>
+				<hr />
+				<ol class="articles-content">
+				  <div class="header">
+					<h2>规划人生，定为梦想——及第一次职场展望课程</h2>
+					<span class="inline">2015-06-07 23:22:44</span><span class="inline"> 作者：居森林 来源：学工办</span>
+				  </div>
+					<img class="img-responsive" src="../../img/p1.jpg" />
+					<p>10月12日晚上7:30，武汉大学信息管理学院“就业指导月”职场展望第一次课程在院办212正式开讲，人资部请来了2013届信息管理与信息系统的黄淑霞学姐给各位学员做就业指导讲师。</p><p>
+    晚上7:30，在讲课开始之间，祁天老师给黄淑霞学姐颁发就业指导月讲师聘书。</p><p>
+课程一开始，黄淑霞学姐便与学员积极沟通，了解大家希望从这几节课中收获什么，同学们也积极说出自己心中的想法与希望。提问过后，黄淑霞学姐用微笑鼓励同学们多互动，多思考，积极主动的表现自己。</p><p>
+    在谈到大学四年的规划时，黄淑霞学姐向大家介绍了自己大学四年的生活，给大家展示了自己的大学时间轴，谈起了自己大学社团活动的经历介绍还有自己参加各种比赛的收获与感悟。相信很多大一大二的学员都会有所收获，明白了自己该如何安排时间，如何进行选择。</p><p>
+    说起自己的面试经历，黄淑霞学姐向我们提出了几个问题：“你们想去哪里？你是谁？”现场的每一位学员都用了一句话告诉大家自己是谁。通过这个问题，各位学员都思考了自己对未来的期待，并对未来的自己有了一个定位，明白了自己要走的路。</p><p>
+    黄淑霞学姐也给我们带来了美国总统奥巴马开学演讲的视频——我们为什么要上学，各位学员都认真地观看视频。视频播放结束后，黄淑霞学姐说出了自己内心的一番感受，告诉我们要拥有良好的品质，学会如何去付出，去承担，去选择，去向着阳光生长。最后，黄淑霞学姐分享了自己人生的人生梦想，告诉各位学员要如何让自己成为一名更优秀的人。</p><p>
+    这是职场展望的第一课，相信各位学员都收获了很多。黄淑霞学姐的讲课也让各位学员树立了信心，了解了自己。希望大家能在未来几节课中积极参与，收获更多新知识，获得更多改变。</p>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<!-- ********************footer************ -->
+	<div class="squ-divider"></div>
+	<footer>
+		<div class="row row-footer">
+		  <div class="col-xs-12 col-sm-2 col-sm-offset-2 col-md-1 col-md-offset-2">
+		    <div class="caption">
+		        <h4>友情链接</h4>
+		    </div>
+		  </div>
+		  <div class="col-xs-12 col-sm-6 col-md-3">
+		    <img class="img-responsive link" src="img/link.png" alt="信管学子网">
+		    <img class="img-responsive link" src="img/link.png" alt="信息管理学院">
+		  </div>
+		  <div class="col-xs-12 col-sm-2 col-sm-offset-2 col-md-1 col-md-offset-1">
+		    <div class="caption">
+		        <h4>联系我们</h4>
+		    </div>
+		  </div>
+		  <div class="col-xs-12 col-sm-6 col-md-3">
+		    <h4><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>：027-11111111</h4>
+		    <h4><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>：1111111@whu.cn</h4>
+		  </div>
+		</div>
+		<hr class="footer-divider"/>
+		<p class="pull-right">copyright&copy;2000-2015. 武汉大学信息管理学院. All rights reserved</p>
+	</footer>
+
+	<!-- ********************反馈建议(modal)************ -->
+		<div class="modal fade"  tabindex="-1" role="dialog"  id="advice">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+		        <h4 class="modal-title">反馈建议</h4>
+		      </div>
+		      <div class="modal-body">
+		        <textarea rows="5" placeholder="在这里填写你的建议..."></textarea>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default">提交</button>
+		      </div>
+		    </div><!-- /.modal-content -->
+		  </div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+
+	<!-- ********************回到顶部************ -->
+	<a href="#top"><div class="toTop">^</div></a>
+
+	<script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../../js/custom.js"></script>
+</body>
+</html>
