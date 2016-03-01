@@ -171,7 +171,7 @@
 	          <a href="news.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">资讯<span class="caret"></span></a>
 	          <ul class="dropdown-menu">
 	            <li><a href="../news.html">公告</a></li>
-	            <li><a href="dongtai.html">学校学院动态</a></li>
+	            <li><a href="dongtai_.html">学校学院动态</a></li>
 	            <li><a href="huodong.html">校友活动</a></li>
 	          </ul>
 	        </li>
@@ -215,7 +215,7 @@
 				<hr />
 				<ul class="nav nav-pills nav-stacked">
 					<li role="presentation"><a href="../news.html">公告</a></li>
-					<li role="presentation"><a href="dongtai.html">学校学院动态</a></li>
+					<li role="presentation"><a href="dongtai_.html">学校学院动态</a></li>
 					<li role="presentation" class="active"><a href="huodong.html">校友活动</a></li>
 				</ul>
 			</div>
